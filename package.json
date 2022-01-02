@@ -1,6 +1,6 @@
 {
   "name": "@fictionsites/iconsent",
-  "version": "0.0.0",
+  "version": "0.1.4",
   "license": "MIT",
   "scripts": {
     "dev": "webpack-dev-server --mode development",

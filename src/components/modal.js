@@ -13,6 +13,7 @@ export default function Modal(props) {
         initialFocus={cancelButtonRef}
         onClose={() => {}}
       >
+        <div dangerouslySetInnerHTML={{ __html: "<!--googleoff: all-->" }} />
         <div className="ic-flex ic-items-end ic-justify-center ic-min-h-screen ic-pt-4 ic-px-4 ic-pb-20 ic-text-center sm:ic-block sm:ic-p-0">
           <Transition.Child
             as={Fragment}
@@ -86,6 +87,7 @@ export default function Modal(props) {
             </div>
           </Transition.Child>
         </div>
+        <div dangerouslySetInnerHTML={{ __html: "<!--googleon: all-->" }} />
       </Dialog>
     </Transition.Root>
   );

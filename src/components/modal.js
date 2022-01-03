@@ -9,7 +9,7 @@ export default function Modal(props) {
     <Transition.Root show={props.open} as={Fragment}>
       <Dialog
         as="div"
-        className="ic-fixed ic-z-10 ic-inset-0 ic-overflow-y-auto"
+        className="ic-fixed ic-z-[9999] ic-inset-0 ic-overflow-y-auto"
         initialFocus={cancelButtonRef}
         onClose={() => {}}
       >
